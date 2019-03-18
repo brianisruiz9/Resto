@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+h1, h2, h3, h4, h5 ,h6{
+    color: #626262;
+    font-family: "aleo-regular", arial;
+    letter-spacing: 1px;
+}
+body{
+	font-family: "wcmanonegrabta";
+}
+#portada{
+	background: url("imagenes/portada.jpg") no-repeat center center;
+	height: 500px;
+	background-size: cover;
+	margin-top: 30px;
+}
+#titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 100px;
+	margin-top: 100px;
+    padding: 0;
+}
+#ptitulo{
+	color: white;
+    font-family: "aleo-regular",arial;
+	font-size: 16px;
+    position: relative;
+    display: inline-block;
+	vertical-align: top;
+    margin: 29px 0 0 0;
+    padding: 0;
+    font-weight: normal;
+}
+#ptitulo .rsep,
+#ptitulo .lsep{
+    width: 40px;
+    height: 1px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+}
+#ptitulo .rsep{
+    margin-right: 20px;
+}
+#ptitulo .lsep{
+    margin-left: 20px;
+}
+.menu{
+    width: 100%;
+    overflow: hidden;
+    border-top: 4px solid red;
+    padding-bottom: 100px;
+    margin-top: -35px;
+}
+
+.menu .menu_title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.menu .menu_title h2{
+    display: inline-block;
+    margin: 0;
+    padding: 20px 25px 35px 25px;
+    background: url("imagenes/ribbon.svg") no-repeat;
+    background-position: 50% 0;
+    color: #fff;
+    font-family: "aleo-bold", arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu article{
+    width: 490px;
+}
+
+.menu .mean_menu{
+    overflow: hidden;
+}
+
+.menu .hidden_items{
+    display: none;
+    overflow: hidden;
+}
+
+.menu article.lmenu{
+    float: left;
+}
+
+.menu article.rmenu{
+    float: right;
+}
+
+.menu article ul{
+    overflow: hidden;
+    list-style: none;    
+}
+
+.menu article ul li{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.menu article ul li .item_info{
+    display: inline-block;
+    float: left;
+}
+
+.menu article ul li h3{
+    color: #545454;
+    font-family: "aleo-regular", arial;
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    padding: 0 40px 10px 0;
+    letter-spacing: .5px;
+    font-weight: normal;
+}
+
+.menu article ul li .item_desc{
+    color: #b7b7b7;
+    font-family: "aleo-italic", arial;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.menu article ul li .price{
+    float: right;
+    color: #555;
+    font-family: "aleo-regular", arial;
+    font-size: 16px;
+    letter-spacing: .5px;
+    padding: 0 0 30px 40px;
+    background: #fff;
+    margin: 0;
+    font-weight: normal;
+}
+
+.menu article ul li .separator{
+    width: 100%;
+    height: 1px;
+    background: #e3e1e1;
+    position: absolute;
+    top: 10px;
+    border: 0;
+    z-index: -1;
+}
+.info{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.info .title{
+    float: left;
+    position: relative;
+}
+
+.info .title h3{
+    color: #3b3b3b;
+    font-family: "aleo-bold", arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.info .title .separator{
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background: #e5e3e3;
+    top: 10px;
+    right: -220px;    
+}
+.featured_dishes{
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.caroufredsel_wrapper{
+    width: 100%!important;
+}
+
+.featured_dishes .dishes{
+    overflow: hidden;
+}
+
+.featured_dishes .dishes article{
+    display: block;
+    width: 230px;
+    float: left;
+    margin-right: 60px;
+}
+
+.featured_dishes .dishes article:last-child{
+    margin-right: 0;
+}
+
+.featured_dishes .dishes article .dishe_img{
+    display: block;
+    width: 230px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.featured_dishes .dishes article .dish_info{
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+}
+
+.featured_dishes .dishes article .dish_info h2{
+    float: left;
+    width: 85%;
+}
+
+.featured_dishes .dishes article .dish_info h3{
+    float: right;
+}
+
+.featured_dishes .dishes article .dish_info h3,
+.featured_dishes .dishes article .dish_info h2{
+    margin: 0;
+    color: #555;
+    font-family: "aleo-light", arial;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.featured_dishes .dishes article .rating ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.featured_dishes .dishes article  ul.rating li{
+   display: block;
+   width: 12px;
+   height: 11px;
+   float: left;
+   margin-right: 5px;
+   background: url('imagenes/stars.png') no-repeat;
+   background-position: 0 0;
+}
+
+.featured_dishes .dishes article  ul.rating li.no-star{
+   background-position: -13px 0;
+}
+.gallery{
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.gallery .media{
+    overflow: hidden;
+    width: 100%;
+    height: 430px
+}
+
+.gallery .media section{
+    display: block;
+    width: 366px;
+    float: left;
+} 
+
+.gallery .active{
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.gallery .inactive{
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+
+.gallery .media section .hhalf{
+    display: block;
+    width: 100%;
+    height: 215px;
+} 
+
+.gallery .media section img{
+    width: 100%;
+    vertical-align: middle;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+    padding: 100px 0;
+	background: #3b3b3b;
+	color: white;
+    overflow: hidden;
+    font-size: 16px;
+}
+footer #adress{
+    font-family: "aleo-regular",arial;
+    line-height: 32px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+footer .location{
+    color: #ebebeb;
+    font-family: "aleo-light", arial;
+    font-weight: lighter;
+}
+footer .phone{
+    font-family: "aleo-bold",arial;
+    font-weight: bold;
+}
+footer #fnav{
+    display: block;
+    margin-bottom: 18px;
+}
+footer #fnav p{
+    text-decoration: none;
+    font-family: "aleo-regular",arial;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3b3b3b;
+    cursor: pointer;
+}
+footer #copy .flogo{
+    margin-bottom: 30px;
+}
+footer #copy p{
+    color: #ebebeb;
+    font-family: "aleo-light",arial;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
